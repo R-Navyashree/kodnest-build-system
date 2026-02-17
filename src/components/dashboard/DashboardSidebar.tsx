@@ -1,19 +1,12 @@
 import { NavLink, useLocation } from "react-router-dom";
-<<<<<<< HEAD
 import { LayoutDashboard, BookOpen, ClipboardCheck, FolderOpen, User, History } from "lucide-react";
-=======
-import { LayoutDashboard, BookOpen, ClipboardCheck, FolderOpen, User } from "lucide-react";
->>>>>>> bb95649c0dc004969166249ececa01b1e250fa4e
 import { cn } from "@/lib/utils";
 
 const navItems = [
   { label: "Dashboard", to: "/dashboard", icon: LayoutDashboard },
   { label: "Practice", to: "/dashboard/practice", icon: BookOpen },
   { label: "Assessments", to: "/dashboard/assessments", icon: ClipboardCheck },
-<<<<<<< HEAD
   { label: "History", to: "/dashboard/history", icon: History },
-=======
->>>>>>> bb95649c0dc004969166249ececa01b1e250fa4e
   { label: "Resources", to: "/dashboard/resources", icon: FolderOpen },
   { label: "Profile", to: "/dashboard/profile", icon: User },
 ];
