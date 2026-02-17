@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -173,5 +174,13 @@ const Dashboard = () => {
     </div>
   );
 };
+=======
+const Dashboard = () => (
+  <div>
+    <h2 className="text-2xl font-semibold text-foreground">Dashboard</h2>
+    <p className="mt-2 text-muted-foreground">Welcome back! Here's an overview of your placement preparation progress.</p>
+  </div>
+);
+>>>>>>> bb95649c0dc004969166249ececa01b1e250fa4e
 
 export default Dashboard;

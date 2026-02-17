@@ -10,12 +10,16 @@ import Practice from "./pages/Practice";
 import Assessments from "./pages/Assessments";
 import Resources from "./pages/Resources";
 import Profile from "./pages/Profile";
+<<<<<<< HEAD
 import History from "./pages/History";
 import Results from "./pages/Results";
 import NotFound from "./pages/NotFound";
 import TestChecklist from "./pages/TestChecklist";
 import Ship from "./pages/Ship";
 import Proof from "./pages/Proof";
+=======
+import NotFound from "./pages/NotFound";
+>>>>>>> bb95649c0dc004969166249ececa01b1e250fa4e
 
 const queryClient = new QueryClient();
 
@@ -33,6 +37,7 @@ const App = () => (
             <Route path="assessments" element={<Assessments />} />
             <Route path="resources" element={<Resources />} />
             <Route path="profile" element={<Profile />} />
+<<<<<<< HEAD
             <Route path="history" element={<History />} />
             <Route path="results" element={<Results />} />
           </Route>
@@ -42,6 +47,9 @@ const App = () => (
           <Route path="/prp/08-ship" element={<Ship />} />
           <Route path="/prp/proof" element={<Proof />} />
 
+=======
+          </Route>
+>>>>>>> bb95649c0dc004969166249ececa01b1e250fa4e
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
